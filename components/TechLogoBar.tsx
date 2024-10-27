@@ -74,7 +74,7 @@ export default function TechScroll() {
   }, [xTranslation, width]);
 
   return (
-    <div className="overflow-hidden  py-10">
+    <div className="overflow-hidden  py-10 animate__animated animate__fadeInUp animate__delay-1s ">
       <motion.div
         className="relative flex gap-12 py-4"
         ref={ref}

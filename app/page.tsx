@@ -16,15 +16,15 @@ export default function Home() {
             <div className="text-xl animate__animated animate__backInLeft">
               Software Developer
             </div>
-            <h1 className="h1 mb-6 animate__animated animate__bounceInLeft animate__delay-1s">
+            <h1 className="h1 mb-6 animate__animated animate__bounceInLeft">
               Hey, I'm <br />
               <span className="text-emerald-400">Will Shi</span>
             </h1>
-            <p className="max-x-[100px] mb-10 text-white/90 animate__animated animate__backInUp animate__delay-1s">
+            <p className="max-x-[100px] mb-10 text-white/90 animate__animated animate__bounceInLeft">
               Here, you can check out what I'm working on. I try my best to
               create things with ❤️
             </p>
-            <div className="md:flex gap-16 justify-center items-center xl:justify-normal animate__animated animate__fadeInUp animate__delay-2s ">
+            <div className="md:flex gap-16 justify-center items-center xl:justify-normal animate__animated animate__fadeInUp animate__delay-1s ">
               <Button className="uppercase items-center gap-2">
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
