@@ -28,8 +28,8 @@ const SocialList = () => {
   return (
     <div className="flex gap-8 justify-center mt-8 md:mt-0">
       {iconImage.map((item, index) => (
-        <Link href={item.url}>
-          <SocialItem icon={item.icon} key={index} />
+        <Link href={item.url} key={index}>
+          <SocialItem icon={item.icon} />
         </Link>
       ))}
     </div>
