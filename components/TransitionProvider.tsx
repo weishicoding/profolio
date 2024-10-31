@@ -27,7 +27,7 @@ const TransitionProvider = ({
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {pathname.substring(1)}
+          {pathname.substring(1) || "Home"}
         </motion.div>
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-t-[100px] bottom-0 z-30"
