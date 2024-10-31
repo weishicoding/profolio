@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "animate.css";
-import Navbar from "@/components/Navbar";
+import TransitionProvider from "@/components/TransitionProvider";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -23,11 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
-        <div className="h-6 fixed z-50 md:relative block w-full bg-green-400"></div>
-        <div className="container">
-          <Navbar />
-          {children}
-        </div>
+        <TransitionProvider>{children}</TransitionProvider>
       </body>
     </html>
   );

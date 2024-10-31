@@ -7,7 +7,7 @@ interface ItemProps {
 
 const SocialItem: React.FC<ItemProps> = ({ icon }) => {
   return (
-    <div className="relative overflow-hidden h-[32px] w-[32px] rounded-xl flex justify-center items-center cursor-pointer hover:bg-accent">
+    <div className="relative overflow-hidden h-[32px] w-[32px] rounded-xl flex justify-center items-center cursor-pointer hover:bg-accent transiton ease-in hover:-translate-y-1 duration-200 ">
       <Image
         src={icon}
         alt=""

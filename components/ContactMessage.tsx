@@ -15,9 +15,9 @@ const ContactMessage = () => {
         </div>
         <Input placeholder="Project" type="firstname" />
         <Textarea className="h-[200px]" placeholder="Message" />
-        <div className="md:flex gap-16 justify-center items-center xl:justify-normal animate__animated animate__fadeInUp animate__delay-1s ">
-          <Button className="uppercase items-center gap-2">
-            <span>Download CV</span>
+        <div className="md:flex gap-16 justify-center items-center xl:justify-normal">
+          <Button className="items-center gap-2" variant="sm">
+            <span>Send message</span>
             <LuSend className="text-xl" />
           </Button>
         </div>

@@ -5,12 +5,12 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap font-extrabold text-2xl  rounded-2xl shadow-lg duration-300",
+  "inline-flex font-family items-center text-accent hover:bg-accent hover:text-primary justify-center whitespace-nowrap shadow-lg duration-300 rounded-2xl transiton ease-in hover:-translate-y-1",
   {
     variants: {
       variant: {
-        default:
-          "text-accent border-4 border-accent hover:bg-accent hover:text-primary",
+        default: "border-4 border-accent font-extrabold text-2xl  ",
+        sm: "border-2 border-accent font-seimbold text-xl",
       },
       size: {
         default: "px-4 py-3.5 ",
