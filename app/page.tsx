@@ -29,12 +29,12 @@ export default function Home() {
                 Hey, I'm <br />
                 <span className="text-emerald-400">Will Shi</span>
               </h1>
-              <p className="max-x-[100px] mb-10 text-white/90 animate__animated animate__bounceInLeft animate__delay-1s">
+              <p className="max-x-[100px] text-white/90 animate__animated animate__bounceInLeft animate__delay-1s">
                 Here, you can check out what I'm working on. I try my best to
                 create things with ❤️
               </p>
-              <div className="md:flex gap-16 justify-center items-center xl:justify-normal animate__animated animate__fadeInUp animate__delay-1s ">
-                <Button className="items-center gap-2">
+              <div className="md:flex gap-16 mt-10 justify-center items-center xl:justify-normal animate__animated animate__fadeInUp animate__delay-1s ">
+                <Button className="gap-2" variant="default">
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />
                 </Button>

@@ -54,7 +54,6 @@ const techLogos: TechLogo[] = [
 ];
 export default function TechScroll() {
   let [ref, { width }] = useMeasure();
-  console.log(width);
   const xTranslation = useMotionValue(0);
 
   const extendedLogos = [...techLogos, ...techLogos, ...techLogos];
