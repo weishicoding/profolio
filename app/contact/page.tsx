@@ -31,9 +31,8 @@ const Contact = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="text-center items-center mb-12">
-        <div className="text-3xl font-semibold text-accent">Contact me</div>
-        <div className="text-xl mt-2">Get in touch</div>
+      <div className="text-center items-center text-3xl md:text-4xl lg:text-5xl font-extrabold text-white my-12">
+        Get in touch
       </div>
       <div className="xl:flex justify-around">
         <div>

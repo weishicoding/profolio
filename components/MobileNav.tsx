@@ -14,7 +14,6 @@ const navigationLinks = [
 
 const MobileNav = () => {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
