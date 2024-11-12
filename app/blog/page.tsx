@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-const Resume = () => {
+const Blog = () => {
   return (
     <motion.div
       className="h-full"
@@ -9,9 +9,9 @@ const Resume = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div>Resume</div>
+      <div></div>
     </motion.div>
   );
 };
 
-export default Resume;
+export default Blog;

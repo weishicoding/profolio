@@ -7,7 +7,7 @@ import MobileNav from "./MobileNav";
 // Navigation links data
 const navigationLinks = [
   { name: "home", path: "/" },
-  { name: "resume", path: "/resume" },
+  { name: "blog", path: "/blog" },
   { name: "work", path: "/work" },
   { name: "contact", path: "/contact" },
 ];
